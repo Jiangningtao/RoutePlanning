@@ -15,6 +15,9 @@
 		FD7990FB1E5E822800E7C879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7990F91E5E822800E7C879 /* LaunchScreen.storyboard */; };
 		FD7991061E5E822900E7C879 /* RoutePlanningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7991051E5E822900E7C879 /* RoutePlanningTests.m */; };
 		FD7991111E5E822900E7C879 /* RoutePlanningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7991101E5E822900E7C879 /* RoutePlanningUITests.m */; };
+		FD7991251E5E824B00E7C879 /* KCAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7991201E5E824B00E7C879 /* KCAnnotation.m */; };
+		FD7991261E5E824B00E7C879 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7991221E5E824B00E7C879 /* MapView.m */; };
+		FD7991271E5E824B00E7C879 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7991241E5E824B00E7C879 /* Place.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		FD79910C1E5E822900E7C879 /* RoutePlanningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutePlanningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7991101E5E822900E7C879 /* RoutePlanningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutePlanningUITests.m; sourceTree = "<group>"; };
 		FD7991121E5E822900E7C879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD79911F1E5E824B00E7C879 /* KCAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAnnotation.h; sourceTree = "<group>"; };
+		FD7991201E5E824B00E7C879 /* KCAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAnnotation.m; sourceTree = "<group>"; };
+		FD7991211E5E824B00E7C879 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		FD7991221E5E824B00E7C879 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		FD7991231E5E824B00E7C879 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		FD7991241E5E824B00E7C879 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		FD7990DF1E5E822800E7C879 = {
 			isa = PBXGroup;
 			children = (
+				FD79911E1E5E824B00E7C879 /* MapView */,
 				FD7990EA1E5E822800E7C879 /* RoutePlanning */,
 				FD7991041E5E822900E7C879 /* RoutePlanningTests */,
 				FD79910F1E5E822900E7C879 /* RoutePlanningUITests */,
@@ -138,6 +148,19 @@
 				FD7991121E5E822900E7C879 /* Info.plist */,
 			);
 			path = RoutePlanningUITests;
+			sourceTree = "<group>";
+		};
+		FD79911E1E5E824B00E7C879 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				FD79911F1E5E824B00E7C879 /* KCAnnotation.h */,
+				FD7991201E5E824B00E7C879 /* KCAnnotation.m */,
+				FD7991211E5E824B00E7C879 /* MapView.h */,
+				FD7991221E5E824B00E7C879 /* MapView.m */,
+				FD7991231E5E824B00E7C879 /* Place.h */,
+				FD7991241E5E824B00E7C879 /* Place.m */,
+			);
+			path = MapView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +301,10 @@
 			files = (
 				FD7990F31E5E822800E7C879 /* ViewController.m in Sources */,
 				FD7990F01E5E822800E7C879 /* AppDelegate.m in Sources */,
+				FD7991251E5E824B00E7C879 /* KCAnnotation.m in Sources */,
+				FD7991271E5E824B00E7C879 /* Place.m in Sources */,
 				FD7990ED1E5E822800E7C879 /* main.m in Sources */,
+				FD7991261E5E824B00E7C879 /* MapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
